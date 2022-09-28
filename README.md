@@ -1,7 +1,2 @@
-#  Kiến thức cơ bản về OOP
-- Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism
-
-## Abstraction
+1. [OOP in java](./oop/README.md)
+2. [SOLID principle in java](./solid-principle/README.md)
