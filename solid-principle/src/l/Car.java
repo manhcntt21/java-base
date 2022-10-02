@@ -8,7 +8,7 @@ package l;
 // mot vai phuong thuc dien hinh cua bat ky loai xe nao
 public interface Car {
     // start
-    public void turnOnEngine();
+    public void turnOnEngine() throws Exception;
     // tang toc
     public void accelerate();
 }
