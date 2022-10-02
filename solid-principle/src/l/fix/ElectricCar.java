@@ -21,3 +21,4 @@ public class ElectricCar extends Car{
         // Apply ElectricCar brake
     }
 }
+// có thể tạo thêm một số loại xe điện kế thừa từ class này
