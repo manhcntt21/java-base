@@ -1,9 +1,9 @@
 package pizzastore.store;
 
+import pizzastore.factory.CaliforniaIngredientFactory;
+import pizzastore.pizza.CheesePizza;
+import pizzastore.pizza.PepperoniPizza;
 import pizzastore.pizza.Pizza;
-import pizzastore.pizza.california.CaliforniaStyleCheesePizza;
-import pizzastore.pizza.california.CaliforniaStyleGreekPizza;
-import pizzastore.pizza.california.CaliforniaStylePepperoniPizza;
 
 /**
  * @author manhdt14
@@ -12,10 +12,10 @@ import pizzastore.pizza.california.CaliforniaStylePepperoniPizza;
 public class CaliforniaPizzaStore extends PizzaStore {
     @Override
     public Pizza createPizza(String type) {
+        CaliforniaIngredientFactory californiaIngredientFactory = new CaliforniaIngredientFactory();
         return switch (type) {
-            case "cheese" -> new CaliforniaStyleCheesePizza();
-            case "pepperoni" -> new CaliforniaStylePepperoniPizza();
-            case "greek" -> new CaliforniaStyleGreekPizza();
+            case "cheese" -> new CheesePizza(californiaIngredientFactory);
+            case "pepperoni" -> new PepperoniPizza(californiaIngredientFactory);
             default -> throw new IllegalArgumentException("invalid type");
         };
     }
