@@ -1,12 +1,14 @@
-package pizzastore.pizza;
+package pizzastore.pizza.chicago;
+
+import pizzastore.pizza.Pizza;
 
 /**
  * @author manhdt14
- * created in 9/26/2023 4:31 PM
+ * created in 9/26/2023 4:30 PM
  */
-public class GreekPizza extends Pizza{
-    public GreekPizza() {
-        this.name = "greek";
+public class ChicagoStyleCheesePizza extends Pizza {
+    public ChicagoStyleCheesePizza() {
+        this.name = "chicago style cheese";
     }
 
     @Override
