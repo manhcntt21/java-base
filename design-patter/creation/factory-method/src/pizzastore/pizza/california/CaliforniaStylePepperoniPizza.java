@@ -12,26 +12,6 @@ public class CaliforniaStylePepperoniPizza extends Pizza {
     }
 
     @Override
-    public void prepare() {
-
-    }
-
-    @Override
-    public void bake() {
-
-    }
-
-    @Override
-    public void cut() {
-
-    }
-
-    @Override
-    public void box() {
-
-    }
-
-    @Override
     public String toString() {
         return name;
     }

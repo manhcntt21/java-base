@@ -8,27 +8,10 @@ import pizzastore.pizza.Pizza;
  */
 public class NewYorkStyleCheesePizza extends Pizza {
     public NewYorkStyleCheesePizza() {
-        this.name = "new york style cheese";
-    }
-
-    @Override
-    public void prepare() {
-
-    }
-
-    @Override
-    public void bake() {
-
-    }
-
-    @Override
-    public void cut() {
-
-    }
-
-    @Override
-    public void box() {
-
+        name = "new york style cheese";
+        dough = "thin crust dough";
+        sauce = "marinara sauce";
+        toppings.add("grated reggiano cheese");
     }
 
     @Override

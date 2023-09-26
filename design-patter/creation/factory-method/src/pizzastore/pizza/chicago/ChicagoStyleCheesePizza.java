@@ -8,27 +8,10 @@ import pizzastore.pizza.Pizza;
  */
 public class ChicagoStyleCheesePizza extends Pizza {
     public ChicagoStyleCheesePizza() {
-        this.name = "chicago style cheese";
-    }
-
-    @Override
-    public void prepare() {
-
-    }
-
-    @Override
-    public void bake() {
-
-    }
-
-    @Override
-    public void cut() {
-
-    }
-
-    @Override
-    public void box() {
-
+        name = "chicago style cheese";
+        dough = "extra thick crust dough";
+        sauce = "plum tomato sauce";
+        toppings.add("shredded mozzarella cheese");
     }
 
     @Override
