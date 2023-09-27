@@ -1,7 +1,5 @@
 package cloneableinterface;
 
-import newoperator.Position;
-
 /**
  * @author manhdt14
  * created in 9/27/2023 3:52 PM
@@ -47,7 +45,8 @@ public class Tree implements Cloneable {
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-
-        return super.clone();
+        Tree cloned = (Tree) super.clone();
+        cloned.setPosition(new Position2(cloned.getPosition().getX(), cloned.getPosition().getY()));
+        return cloned;
     }
 }
