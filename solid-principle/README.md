@@ -27,7 +27,7 @@ Sau một vài tháng, mọi người cảm thấy nhàm chán với chiếc đ�
 ## Liskov Substitution
 https://www.baeldung.com/java-liskov-substitution-principle
 
-Được cho là phức tạp nhất trong 4 nguyên lý, nếu class A là subtype của class B, chúng ta có thể thay thế class B bằng class A mà không làm gián đoạn hoạt động của chương trình
+Được cho là phức tạp nhất trong 4 nguyên lý, nếu class A (lớp con) là subtype của class B (lớp cha), chúng ta có thể thay thế class A bằng class B mà không làm gián đoạn hoạt động của chương trình
 
 Như trong ví dụ đã làm thay đổi hành vi của chương trình vì thêm một chiếc ô tô điện không có động cơ
 
@@ -47,6 +47,12 @@ Lúc đầu Payment chỉ phục vụ BankPayment, nhưng theo thời gian, ứn
 
 ## Dependency Inversion
 https://www.baeldung.com/java-dependency-inversion-principle
+
+[2 dòng dưới đọc ở đây](https://blog.stackademic.com/understanding-the-difference-between-dependency-inversion-and-dependency-injection-in-c-c9934ee7f6f5)
+
+Dependency Inversion là một trong các nguyên lý của solid
+
+Dependency Injection là một design pattern để triển khai Dependency Inversion
 
 Dependency inversion principle (DIP) không phải là dependency injection (DI) hay inversion of control (IOC), mặc dù chúng làm việc giống nhau
 
