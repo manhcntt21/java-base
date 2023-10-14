@@ -63,7 +63,7 @@ Constructor chaining chia làm 2 loại:
 
 Chu ý:
 - *Thứ tự khai báo constructor không quan trọng*
-- *Luôn gọi constructor của lớp cha được, nếu không khai báo thì nó constructor không tham số của lớp cha*
+- *Luôn gọi constructor của lớp cha trước, nếu không khai báo thì nó gọi constructor không tham số của lớp cha*
 ***
 ### References
 1. [What is constructor delegation?](https://www.linkedin.com/advice/0/how-do-you-overload-delegate-constructors#:~:text=Constructor%20delegation%20is%20the%20ability,specify%20the%20differences%20between%20constructors.)
