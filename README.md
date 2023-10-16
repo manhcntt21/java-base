@@ -2,3 +2,4 @@
 2. [SOLID principle in java](./solid-principle/README.md)
 3. [equal/hashcode](./core/equal-hashcode)
 4. [constructor chaining](./core/constructor-chain)
+5. [generic type](./core/generic-type)
