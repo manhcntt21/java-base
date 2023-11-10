@@ -23,7 +23,7 @@ System.out.println(rawBox.get());
 - rawBox có kiểu `raw type`
 - set giá trị kiểu bất kì cho box, ở trên mình minh hoạ với kiểu Integer
 
-Như vậy `Box()` là `raw type` của `generic type Box<T>`, tuy nhiên một non-generic class or interface không phải là một `raw type`. 
+Như vậy `Box` là `raw type` của `generic type Box<T>`, tuy nhiên một non-generic class or interface không phải là một `raw type`. 
 ***
 *Chú ý*
 - Việc gán parameterized type cho kiểu raw type là được phép
